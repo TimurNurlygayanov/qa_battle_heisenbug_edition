@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA Battle: Heisenbug Edition</title>
+</head>
+<body>
+
+
+<script>
+
+    function f(new_value) {
+        /// Thank you https://stackoverflow.com/a/32351429
+
+        var value = document.getElementById('secret_code').value;
+
+        if (value.length < 4) {
+            document.getElementById('secret_code').value = value + new_value;
+        };
+    }
+
+
+    function clean() {
+        document.getElementById('secret_code').value = '';
+    }
+
+</script>
+
+
+<div align="center" style="width: 400px">
+
+    Ты подходишь к бронированной тяжелой двери и видишь кодовый электронный замок:
+
+
+    <br><br>
+    <div>
+
+            <input type="text" width="4" maxlength="4" style="font-size:25px;text-align:center;width:100px"
+            onkeypress="return false;" id="secret_code">
+
+                <br><br>
+
+            <div align="center" style="width: 200px">
+
+                <button style="width: 30px; height: 30px;" onclick="f(1);">1</button>
+                <button style="width: 30px; height: 30px;" onclick="f(2);">2</button>
+                <button style="width: 30px; height: 30px;" onclick="f(3);">3</button>
+
+            </div>
+
+            <div align="center" style="width: 200px">
+
+                <button style="width: 30px; height: 30px;" onclick="f(4);">4</button>
+                <button style="width: 30px; height: 30px;" onclick="f(5);">5</button>
+                <button style="width: 30px; height: 30px;" onclick="f(6);">6</button>
+
+            </div>
+
+            <div align="center" style="width: 200px">
+
+                <button style="width: 30px; height: 30px;" onclick="f(7);">7</button>
+                <button style="width: 30px; height: 30px;" onclick="f(8);">8</button>
+                <button style="width: 30px; height: 30px;" onclick="f(9);">9</button>
+
+            </div>
+
+            <br>
+            <button style="color: darkorange; width: 100px; height: 30px;"
+            onclick="clean();"> Clear </button>
+            <button style="color: forestgreen; width: 100px; height: 30px;"> Open </button>
+
+    </div>
+
+
+</div>
+
+<br><br>
+<a href="">Осмотреть комнату</a><br>
+<a href="">Открыть деревянную дверь</a><br>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA Battle: Heisenbug Edition</title>
+</head>
+<body>
+
+<style>
+
+    div.cube {
+        border: double;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        background-color: #ffffff;
+    }
+
+</style>
+
+<script>
+function changeColor(v)
+{
+    var colour = v.style.backgroundColor;
+    console.log(colour);
+
+    if (colour == 'rgb(255, 255, 255)' || colour == '') {
+        v.style.backgroundColor = "#009900"; // backcolor
+    } else {
+        v.style.backgroundColor = "#ffffff"; // backcolor
+    }
+}
+</script>
+
+<div align="center" style="width: 400px">
+
+    Ты подходишь к кубикам и внимательно их осматриваешь
+
+    <br><br>
+
+    <table>
+    <tr>
+        <th> <div class="cube" id="c1" onclick="changeColor(this);"> P </div> </th>
+        <th> <div class="cube" id="c2" onclick="changeColor(this);"> w </div> </th>
+        <th> <div class="cube" id="c3" onclick="changeColor(this);"> r </div> </th>
+        <th> <div class="cube" id="c4" onclick="changeColor(this);"> a </div> </th>
+    </tr>
+
+    <tr>
+    <tr>
+        <th> <div class="cube" id="c5" onclick="changeColor(this);"> e </div> </th>
+        <th> <div class="cube" id="c6" onclick="changeColor(this);"> i </div> </th>
+        <th> <div class="cube" id="c7" onclick="changeColor(this);"> i </div> </th>
+        <th> <div class="cube" id="c8" onclick="changeColor(this);"> s </div> </th>
+    </tr>
+    </table>
+
+
+    <br>
+
+
+</div>
+
+<br><br>
+<a href="">Осмотреть комнату</a><br>
+
+</body>
+</html>
