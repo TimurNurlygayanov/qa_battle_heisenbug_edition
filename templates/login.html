@@ -6,9 +6,39 @@
 </head>
 <body>
 
-Для начала игры необходимо авторизоваться:
 
-<a href="/first_room"></a>
+<style>
+  .center {
+    margin: auto;
+    width: 500px;
+    text-align: left;
+    // top: 90%;
+    // left: 20px;
+    padding: 30px;
+    float: right;
+  }
+  body, html {
+    height: 100%;
+    display: grid;
+  }
+</style>
+
+
+<div style="text-align: center; margin: auto; margin-top: 30px; margin-bottom: 0px;">
+
+    <H3> Для начала игры необходимо авторизоваться: </H3>
+
+
+
+    <script src="//ulogin.ru/js/ulogin.js"></script>
+    <div id="uLogin" data-ulogin="display=panel;theme=classic;fields=first_name,last_name,email;
+    providers=vkontakte,odnoklassniki,mailru,facebook;mobilebuttons=0;altway=1"></div>
+
+    <input type="checkbox" checked disabled> Я даю свое согласие на обработку моих персональных данных. <br>
+
+</div>
+
+
 
 </body>
 </html>
