@@ -17,7 +17,7 @@ mkdir /qabattle
 touch /qabattle/qabattle.sock
 
 chown www-data:www-data -R /qabattle
-chmod 644 -R /qabattle
+chmod 777 -R /qabattle
 
 
 rm -rf /etc/init/qabattle.conf
