@@ -34,10 +34,11 @@ def authorize():
         try:
             data = res.json()
 
-            user_name = str(data['email']).lower()
+            user_name = str(data['first_name'] + data['last_name']).lower()
+            user_email = str(data['email']).lower()
 
             with open('/users.txt', 'w+') as f:
-                f.write('{0}\n'.format(user_name))
+                f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email))
 
         except:
             pass
