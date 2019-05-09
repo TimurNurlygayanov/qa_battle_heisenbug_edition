@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pip install -r requirements.txt -y
+pip install -r requirements.txt
 
 
 rm -rf  /var/www/qabattle/*
