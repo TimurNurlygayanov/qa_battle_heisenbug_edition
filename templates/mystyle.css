@@ -35,13 +35,24 @@
         font-size: 6rem;
   }
 
+  th {
+      padding: 20px;
+  }
+
+
 
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px; text-align: left; padding: 10%}
-    img {width: 10%}}
+    img {width: 10%}
+    div.cube { width: 200px; height: 200px}
+}
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px; text-align: left; padding: 10%}
-    img {width: 12%}}
+    img {width: 12%}
+    div.cube { width: 200px; height: 200px}
+}
 @media screen and (max-width: 992px) { div.contentblock {width: 970px; text-align: left; padding: 10%}
-    img {width: 20%}}
+    img {width: 20%}
+    div.cube { width: 200px; height: 200px}
+}
 
 
 @media (max-width: 640px) { body {font-size:2rem;} }
