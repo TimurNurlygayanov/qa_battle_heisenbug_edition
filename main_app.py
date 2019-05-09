@@ -17,12 +17,12 @@ app.secret_key = str(hashlib.sha224('QA Battle Heisenbug'.encode('utf-8')
                                     ).hexdigest())
 
 
-@app.route('/check', methods=['GET'])
+@app.route('/auth/check', methods=['GET'])
 def check():
     return flask.jsonify('OK')
 
 
-@app.route('/auth', methods=['POST'])
+@app.route('/auth/auth', methods=['POST'])
 def authorize():
 
     if request.method == 'POST':

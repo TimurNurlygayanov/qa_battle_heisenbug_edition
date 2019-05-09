@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d8f0f-d19d-4c3c-b3b5-5b991b91ddef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="145">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="e#44#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -133,13 +136,13 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/start.html" />
         <option value="$PROJECT_DIR$/templates/start_dream.html" />
-        <option value="$PROJECT_DIR$/main_app.py" />
         <option value="$PROJECT_DIR$/qabattle.conf" />
         <option value="$PROJECT_DIR$/qabattle" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/qabattle.ini" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/update.sh" />
+        <option value="$PROJECT_DIR$/main_app.py" />
       </list>
     </option>
   </component>
@@ -207,12 +210,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557313321080</updated>
-      <workItem from="1557313322393" duration="8819000" />
+      <workItem from="1557313322393" duration="8960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8819000" />
+    <option name="totallyTimeSpent" value="8960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="615" y="609" width="1440" height="794" extended-state="0" />
@@ -309,31 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qabattle.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qabattle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -365,6 +347,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qabattle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qabattle.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#44#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
