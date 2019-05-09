@@ -40,8 +40,9 @@ def authorize():
             with open('/users.txt', 'w+') as f:
                 f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email))
 
-        except:
-            pass
+        except Exception as e:
+            with open('/var/log/qabattle.log', 'w+') as f:
+                f.write(str(e))
 
         return flask.redirect('/start_dream.html')
 
