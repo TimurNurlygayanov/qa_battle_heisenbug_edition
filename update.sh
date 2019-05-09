@@ -16,6 +16,8 @@ rm -rf /qabattle
 mkdir /qabattle
 chmod 664 /qabattle
 touch /qabattle/qabattle.sock
+chown root:root -r /qabattle
+chmod 664 /qabattle
 chmod 664 /qabattle/qabattle.sock
 
 
