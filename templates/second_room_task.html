@@ -3,22 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>QA Battle: Heisenbug Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
 
-<style>
 
-    div.cube {
-        border: double;
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        vertical-align: middle;
-        display: table-cell;
-        background-color: #ffffff;
-    }
-
-</style>
 
 <script>
 function changeColor(v)
@@ -34,13 +24,13 @@ function changeColor(v)
 }
 </script>
 
-<div align="center" style="width: 400px">
+<div class="contentblock">
 
     Ты подходишь к кубикам и внимательно их осматриваешь
 
     <br><br>
 
-    <table>
+    <table align="center">
     <tr>
         <th> <div class="cube" id="c1" onclick="changeColor(this);"> P </div> </th>
         <th> <div class="cube" id="c2" onclick="changeColor(this);"> w </div> </th>
@@ -61,10 +51,10 @@ function changeColor(v)
     <br>
 
 
-</div>
-
 <br><br>
 <a href="">Осмотреть комнату</a><br>
+
+</div>
 
 </body>
 </html>
