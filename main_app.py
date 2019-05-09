@@ -42,6 +42,7 @@ def authorize():
 
         except Exception as e:
             with open('/qabattle.log', 'w+') as f:
+                f.write(res.text)
                 f.write(str(e))
 
         return flask.redirect('/start_dream.html')
