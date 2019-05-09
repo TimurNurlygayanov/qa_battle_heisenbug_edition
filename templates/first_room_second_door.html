@@ -26,6 +26,19 @@
         document.getElementById('secret_code').value = '';
     }
 
+    function open_door() {
+        var value = document.getElementById('secret_code').value;
+
+        if (value.length == 4) {
+
+            if (isNaN(value)) {
+                window.location.replace("/first_room_exit.html");
+            } else {
+                // try something else! :)
+            }
+        }
+    }
+
 </script>
 
 
