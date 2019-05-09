@@ -35,10 +35,10 @@ def authorize():
             data = res.json()
 
             user_name = u'{0}'.format(data['first_name'] + data['last_name'])
-            user_email = str(data['email']).lower()
+            user_email = u'{0}'.format(data['email'])
 
             with open('/users.txt', 'w+') as f:
-                f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email))
+                f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email.lower()))
 
         except Exception as e:
             with open('/qabattle.log', 'w+') as f:
