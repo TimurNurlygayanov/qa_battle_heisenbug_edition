@@ -26,8 +26,8 @@
 
   div.cube {
         border: double;
-        width: 70px;
-        height: 70px;
+        width: 120px;
+        height: 120px;
         text-align: center;
         vertical-align: middle;
         display: table-cell;
