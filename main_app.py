@@ -41,7 +41,7 @@ def authorize():
                 f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email))
 
         except Exception as e:
-            with open('/var/log/qabattle.log', 'w+') as f:
+            with open('/var/log/qabattle/qabattle.log', 'w+') as f:
                 f.write(str(e))
 
         return flask.redirect('/start_dream.html')
