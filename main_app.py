@@ -34,9 +34,9 @@ def authorize():
         # try:
         data = res.json()
 
-        user_name = u'{0}'.format(data['first_name'].encode('utf-8') +
-                                  data['last_name'].encode('utf-8'))
-        user_email = u'{0}'.format(data['email'].encode('utf-8'))
+        user_name = u'{0}'.format(data['first_name'].encode('utf8','ignore') +
+                                  data['last_name'].encode('utf8','ignore'))
+        user_email = u'{0}'.format(data['email'].encode('utf8','ignore'))
 
         with open('/users.txt', 'w+') as f:
             f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email.lower()))
