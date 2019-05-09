@@ -14,11 +14,9 @@ cp qabattle /etc/nginx/sites-enabled/qabattle
 
 rm -rf /qabattle
 mkdir /qabattle
-chmod 664 /qabattle
+chmod 666 /qabattle
 touch /qabattle/qabattle.sock
-chown root:root -r /qabattle
-chmod 664 /qabattle
-chmod 664 /qabattle/qabattle.sock
+chmod 666 /qabattle/qabattle.sock
 
 
 rm -rf /etc/init/qabattle.conf
