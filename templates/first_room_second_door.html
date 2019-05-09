@@ -29,7 +29,7 @@
     function open_door() {
         var value = document.getElementById('secret_code').value;
 
-        if (value.length == 4) {
+        if (value.length > 3) {
 
             if (isNaN(value)) {
                 window.location.replace("/first_room_exit.html");
