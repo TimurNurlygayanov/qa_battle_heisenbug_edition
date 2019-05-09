@@ -22,9 +22,9 @@ chmod 777 -R /qabattle
 
 rm -rf /etc/init/qabattle.conf
 cp qabattle.conf  /lib/systemd/system/qabattle.service
-systemctl enable foo
-sudo service foo stop
-sudo service foo start
+systemctl enable qabattle
+service qabattle stop
+service qabattle start
 
 service nginx configtest
 systemctl restart nginx
