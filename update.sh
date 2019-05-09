@@ -21,8 +21,9 @@ chmod 777 -R /qabattle
 
 
 rm -rf /etc/init/qabattle.conf
-cp qabattle.conf  /etc/init/qabattle.conf
-
+cp qabattle.conf  /etc/init/qabattle.service
+service qabattle stop
+service qabattle start
 
 service nginx configtest
 systemctl restart nginx
