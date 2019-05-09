@@ -1,0 +1,4 @@
+flask
+uwsgi
+hashlib
+requests
