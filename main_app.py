@@ -34,7 +34,7 @@ def authorize():
         try:
             data = res.json()
 
-            user_name = str(data['first_name'] + data['last_name']).lower()
+            user_name = u'{0}'.format(data['first_name'] + data['last_name'])
             user_email = str(data['email']).lower()
 
             with open('/users.txt', 'w+') as f:
