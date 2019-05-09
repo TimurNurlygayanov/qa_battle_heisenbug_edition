@@ -6,6 +6,7 @@ from flask import Flask
 from flask import request
 import hashlib
 import requests
+import codecs
 
 
 UPLOAD_FOLDER = '/files'
@@ -31,18 +32,12 @@ def authorize():
         url = 'http://ulogin.ru/token.php?token={0}&host={1}'
         res = requests.get(url.format(login_token, 'localhost'))
 
-        # try:
         data = res.json()
 
-        with open('/users.txt', 'w+', encoding='utf8') as f:
+        with codecs.open('/users.txt', 'w+', 'utf-8') as f:
             f.write('@@@ {0} {1} - {2} ###\n'.format(data['first_name'],
                                                      data['last_name'],
                                                      data['email']))
-
-        # except Exception as e:
-        #     with open('/qabattle.log', 'w+') as f:
-        #         f.write(res.text)
-        #         f.write(str(e))
 
         return flask.redirect('/start_dream.html')
 
