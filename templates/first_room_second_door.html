@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>QA Battle: Heisenbug Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
 </head>
 <body>
 
@@ -27,56 +30,56 @@
 </script>
 
 
-<div align="center" style="width: 400px">
+<div class="contentblock">
 
     Ты подходишь к бронированной тяжелой двери и видишь кодовый электронный замок:
 
 
     <br><br>
-    <div>
+    <div align="center">
 
-            <input type="text" width="4" maxlength="4" style="font-size:25px;text-align:center;width:100px"
+            <input type="text" width="4" maxlength="4" style="font-size:40px;text-align:center;width:400px"
             onkeypress="return false;" id="secret_code">
 
                 <br><br>
 
-            <div align="center" style="width: 200px">
+            <div align="center" style="padding: 10px">
 
-                <button style="width: 30px; height: 30px;" onclick="f(1);">1</button>
-                <button style="width: 30px; height: 30px;" onclick="f(2);">2</button>
-                <button style="width: 30px; height: 30px;" onclick="f(3);">3</button>
-
-            </div>
-
-            <div align="center" style="width: 200px">
-
-                <button style="width: 30px; height: 30px;" onclick="f(4);">4</button>
-                <button style="width: 30px; height: 30px;" onclick="f(5);">5</button>
-                <button style="width: 30px; height: 30px;" onclick="f(6);">6</button>
+                <button onclick="f(1);">1</button>
+                <button onclick="f(2);">2</button>
+                <button onclick="f(3);">3</button>
 
             </div>
 
-            <div align="center" style="width: 200px">
+            <div align="center" style="padding: 10px">
 
-                <button style="width: 30px; height: 30px;" onclick="f(7);">7</button>
-                <button style="width: 30px; height: 30px;" onclick="f(8);">8</button>
-                <button style="width: 30px; height: 30px;" onclick="f(9);">9</button>
+                <button onclick="f(4);">4</button>
+                <button onclick="f(5);">5</button>
+                <button onclick="f(6);">6</button>
+
+            </div>
+
+            <div align="center" style="padding: 10px">
+
+                <button onclick="f(7);">7</button>
+                <button onclick="f(8);">8</button>
+                <button onclick="f(9);">9</button>
 
             </div>
 
             <br>
-            <button style="color: darkorange; width: 100px; height: 30px;"
-            onclick="clean();"> Clear </button>
-            <button style="color: forestgreen; width: 100px; height: 30px;"> Open </button>
+            <button class="cancel" onclick="clean();"> Clear </button>
+            <button class="open"> Open </button>
 
     </div>
 
 
-</div>
 
-<br><br>
-<a href="">Осмотреть комнату</a><br>
-<a href="">Открыть деревянную дверь</a><br>
+    <br><br><br>
+    <a href="">Осмотреть комнату</a><br>
+    <a href="">Открыть деревянную дверь</a><br>
+
+</div>
 
 </body>
 </html>
