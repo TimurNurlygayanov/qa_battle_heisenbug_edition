@@ -31,19 +31,20 @@ def authorize():
         url = 'http://ulogin.ru/token.php?token={0}&host={1}'
         res = requests.get(url.format(login_token, 'localhost'))
 
-        try:
-            data = res.json()
+        # try:
+        data = res.json()
 
-            user_name = u'{0}'.format(data['first_name'] + data['last_name'])
-            user_email = u'{0}'.format(data['email'])
+        user_name = u'{0}'.format(data['first_name'].encode('utf-8') +
+                                  data['last_name'].encode('utf-8'))
+        user_email = u'{0}'.format(data['email'].encode('utf-8'))
 
-            with open('/users.txt', 'w+') as f:
-                f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email.lower()))
+        with open('/users.txt', 'w+') as f:
+            f.write('@@@ {0} - {1} ###\n'.format(user_name, user_email.lower()))
 
-        except Exception as e:
-            with open('/qabattle.log', 'w+') as f:
-                f.write(res.text)
-                f.write(str(e))
+        # except Exception as e:
+        #     with open('/qabattle.log', 'w+') as f:
+        #         f.write(res.text)
+        #         f.write(str(e))
 
         return flask.redirect('/start_dream.html')
 
