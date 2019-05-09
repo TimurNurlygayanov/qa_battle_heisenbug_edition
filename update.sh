@@ -19,6 +19,9 @@ touch /qabattle/qabattle.sock
 chown www-data:www-data -R /qabattle
 chmod 777 -R /qabattle
 
+mkdir -p /var/log/qabattle
+rm -rf /var/log/qabattle/qabattle.log
+touch /var/log/qabattle/qabattle.log
 
 rm -rf /etc/init/qabattle.conf
 cp qabattle.conf  /lib/systemd/system/qabattle.service
