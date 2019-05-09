@@ -35,7 +35,8 @@ def authorize():
         data = res.json()
 
         with codecs.open('/users.txt', 'a+', 'utf-8') as f:
-            f.write(data['first_name'] + ' ' + data['last_name'] + ' - ' + data['email'])
+            f.write(data['first_name'] + ' ' + data['last_name'] +
+                    ' with email: ' + data['email'] + '\n')
 
         return flask.redirect('/start_dream.html')
 
