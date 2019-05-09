@@ -23,3 +23,11 @@ small virtual machine in Google cloud.
 The players will open the page, click the links with answers,
 solve logical tasks and at the end they will see the 
 congratulation message. This is it.
+
+
+How To Update On Production
+---------------------------
+
+    git pull
+    sudo ./update.sh
+
