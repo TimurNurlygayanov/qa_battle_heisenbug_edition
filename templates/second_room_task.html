@@ -10,15 +10,46 @@
 
 
 <script>
+
+let c1 = 0;
+let c2 = 0;
+let c3 = 0;
+let c4 = 0;
+let c5 = 0;
+let c6 = 0;
+let c7 = 0;
+let c8 = 0;
+
+
 function changeColor(v)
 {
     var colour = v.style.backgroundColor;
+    let c = 0;
     console.log(colour);
 
     if (colour == 'rgb(255, 255, 255)' || colour == '') {
         v.style.backgroundColor = "#009900"; // backcolor
+        c = 1;
     } else {
         v.style.backgroundColor = "#ffffff"; // backcolor
+        c = 0;
+    }
+
+    if (v.id == "c1") { c1 = c; }
+    if (v.id == "c2") { c2 = c; }
+    if (v.id == "c3") { c3 = c; }
+    if (v.id == "c4") { c4 = c; }
+    if (v.id == "c5") { c5 = c; }
+    if (v.id == "c6") { c6 = c; }
+    if (v.id == "c7") { c7 = c; }
+    if (v.id == "c8") { c8 = c; }
+
+    if ((c1*10 + c2 != c3*10 + c4) && (c5*10+c6 != c7*10+c8) &&
+        (c1*10 + c2 != c5*10+c6) && (c1*10 + c2 != c7*10+c8) &&
+        (c3*10 + c4 != c5*10+c6) && (c3*10 + c4 != c7*10+c8)) {
+        // go ahead
+    } else {
+        console.log("Try something different... :)");
     }
 }
 </script>
@@ -43,7 +74,6 @@ function changeColor(v)
         <th> <div class="cube" id="c4" onclick="changeColor(this);"> a </div> </th>
     </tr>
 
-    <tr>
     <tr>
         <th> <div class="cube" id="c5" onclick="changeColor(this);"> e </div> </th>
         <th> <div class="cube" id="c6" onclick="changeColor(this);"> i </div> </th>
