@@ -36,12 +36,12 @@
         text-align: center;
         vertical-align: middle;
 
-        //display: table-cell;
+        display: table-cell;
 
         background-color: #ffffff;
         font-size: 6rem;
   }
-  
+
 
   button {
       width: 100px;
