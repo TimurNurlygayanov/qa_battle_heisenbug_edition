@@ -8,42 +8,45 @@
 
     <link rel="stylesheet" type="text/css" href="mystyle.css?v=111111111111">
 
+
+    <script>
+
+        function f(new_value) {
+            /// Thank you https://stackoverflow.com/a/32351429
+
+            var value = document.getElementById('secret_code').value;
+
+            if (value.length < 4) {
+                document.getElementById('secret_code').value = value + new_value;
+            };
+        }
+
+
+        function clean() {
+            document.getElementById('secret_code').value = '';
+        }
+
+        function open_door() {
+            var value = document.getElementById('secret_code').value;
+
+            console.log(value, value.length, isNaN(value))
+
+            if (value.length > 1) {
+
+                if (value < 0) {
+                    window.location.replace("/first_room_exit.html");
+                } else {
+                    console.log("Try something different... :)");
+                }
+            }
+        }
+
+    </script>
+
+
 </head>
 
 
-<script>
-
-    function f(new_value) {
-        /// Thank you https://stackoverflow.com/a/32351429
-
-        var value = document.getElementById('secret_code').value;
-
-        if (value.length < 4) {
-            document.getElementById('secret_code').value = value + new_value;
-        };
-    }
-
-
-    function clean() {
-        document.getElementById('secret_code').value = '';
-    }
-
-    function open_door() {
-        var value = document.getElementById('secret_code').value;
-
-        console.log(value, value.length, isNaN(value))
-
-        if (value.length > 1) {
-
-            if (value < 0) {
-                window.location.replace("/first_room_exit.html");
-            } else {
-                console.log("Try something different... :)");
-            }
-        }
-    }
-
-</script>
 
 
 <body>
