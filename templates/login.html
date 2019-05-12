@@ -6,6 +6,11 @@
 
     <title>Login</title>
 </head>
+
+
+<script src="//ulogin.ru/js/ulogin.js"></script>
+
+
 <body>
 
 
@@ -30,13 +35,11 @@
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} img {width: 12%} }
 @media screen and (max-width: 992px) { div.contentblock {width: 970px;} img {width: 20%} }
 
-@media (max-width: 640px) { body {font-size:2rem;} }
-@media (min-width: 640px) { body {font-size:1.5rem;} }
-@media (min-width:960px) { body {font-size:1.7rem;} }
-@media (min-width:1100px) { body {font-size:2rem;} }
+@media (max-width: 640px) { html {font-size:3rem;} h1 {font-size: 4rem} h3 {font-size: 3rem} }
+@media (min-width: 640px) { html {font-size:3rem;} h1 {font-size: 4rem} h3 {font-size: 3rem} }
+@media (min-width: 960px) { html {font-size:2rem;} h1 {font-size: 3rem} h3 {font-size: 2rem} }
+@media (min-width:1100px) { html {font-size:2rem;} h1 {font-size: 3rem} h3 {font-size: 2rem} }
 
-@media (min-width:1140px) { .content { -webkit-column-count: 2; -webkit-column-gap: 1em;
-    -moz-column-count: 2; -moz-column-gap: 1em; column-count: 2; column-gap: 1em; } }
 </style>
 
 
@@ -46,15 +49,18 @@
     <H3> Для начала игры необходимо авторизоваться: </H3>
 
 
-    <script src="//ulogin.ru/js/ulogin.js"></script>
     <div id="uLogin" data-ulogin="display=buttons;theme=classic;fields=first_name,last_name,email;
     redirect_uri=http://35.228.63.100/auth/auth;
     providers=vkontakte,mailru,linkedin,facebook;mobilebuttons=0;altway=1">
 
-        <img src="images/vk.png" data-uloginbutton="vkontakte" width="10%" style="padding: 2%"/>
-        <img src="images/mail.jpg" data-uloginbutton="mailru" width="10%" style="padding: 2%" />
-        <img src="images/facebook.png" data-uloginbutton="facebook" width="10%" style="padding: 2%"/>
-        <img src="images/linkedin.png" data-uloginbutton="linkedin" width="10%" style="padding: 2%"/>
+        <img src="images/vk.png" data-uloginbutton="vkontakte"
+             width="10%" style="padding: 2%" alt="VK.com"/>
+        <img src="images/mail.jpg" data-uloginbutton="mailru"
+             width="10%" style="padding: 2%" alt="MAIL.RU"/>
+        <img src="images/facebook.png" data-uloginbutton="facebook"
+             width="10%" style="padding: 2%" alt="Facebook.com"/>
+        <img src="images/linkedin.png" data-uloginbutton="linkedin"
+             width="10%" style="padding: 2%" alt="Linkedin.com"/>
 
     </div>
 
