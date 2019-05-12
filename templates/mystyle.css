@@ -47,6 +47,10 @@
         position: relative;
   }
 
+  img.social_network {
+      width: 15%;
+      padding: 2%;
+  }
 
 
   button {
