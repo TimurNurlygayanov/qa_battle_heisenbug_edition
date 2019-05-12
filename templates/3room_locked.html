@@ -7,33 +7,34 @@
     <title>QA Battle: Heisenbug Edition</title>
 
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+    <script>
+
+        function open_lock(code) {
+            var value = document.getElementById('bug_code').value;
+
+            console.log(value, value.length, isNaN(value));
+
+            if (value.length > 3) {
+
+                // So we had a deadline and this task is very simple :)
+                // Enjoy the game :)
+                if (value == 3807) {
+                    window.location.replace("/3room_finished.html");
+                } else {
+                    console.log("Try something different... :)");
+                }
+            }
+        }
+
+    </script>
+
+
 </head>
 
 
 <body>
-
-
-
-<script>
-
-    function open_lock(code) {
-        var value = document.getElementById('bug_code').value;
-
-        console.log(value, value.length, isNaN(value));
-
-        if (value.length > 3) {
-
-            // So we had a deadline and this task is very simple :)
-            // Enjoy the game :)
-            if (value == 3807) {
-                window.location.replace("/3room_finished.html");
-            } else {
-                console.log("Try something different... :)");
-            }
-        }
-    }
-
-</script>
 
 
 
