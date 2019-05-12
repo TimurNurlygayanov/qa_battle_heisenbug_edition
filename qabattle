@@ -1,9 +1,16 @@
 server {
+    listen 80;
+    server_name qabattle.com;
+    return 301 https://$server_name$request_uri;
+}
+
+server {
     listen 443 http2 ssl;
 
     root /var/www/qabattle;
 
     server_name qabattle.com;
+
     charset     utf-8;
 
     ssl_certificate /etc/letsencrypt/live/qabattle.com/fullchain.pem;
@@ -22,6 +29,4 @@ server {
 
     access_log off;
     gzip  on;
-
-    return 301 https://$server_name$request_uri;
 }
