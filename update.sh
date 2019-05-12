@@ -30,3 +30,5 @@ service qabattle restart
 
 service nginx configtest
 systemctl restart nginx
+
+service qabattle restart
