@@ -1,8 +1,13 @@
 server {
     listen 80;
+    
     root /var/www/qabattle;
-    server_name _;
+
+    server_name qabattle.com;
+    charset     utf-8;
+
     index index.html;
+
     location / {
         try_files $uri $uri/ =404;
     }
