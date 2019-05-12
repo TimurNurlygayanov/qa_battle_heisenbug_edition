@@ -31,18 +31,21 @@
 
   div.cube {
         border: double;
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
         line-height: 120px;
 
-        // text-align: center;
-        // vertical-align: middle;
+        text-align: center;
+        vertical-align: middle;
 
-        display: table-cell;
+        //display: table-cell;
 
         background-color: #ffffff;
         font-size: 4rem;
+
+        position: relative;
   }
+
 
 
   button {
