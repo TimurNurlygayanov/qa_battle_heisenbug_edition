@@ -44,10 +44,14 @@ function changeColor(v)
     if (v.id == "c7") { c7 = c; }
     if (v.id == "c8") { c8 = c; }
 
-    if ((c1*10 + c2 != c3*10 + c4) && (c5*10+c6 != c7*10+c8) &&
+    if (((c1*10 + c2 != c3*10 + c4) && (c5*10+c6 != c7*10+c8) &&
         (c1*10 + c2 != c5*10+c6) && (c1*10 + c2 != c7*10+c8) &&
-        (c3*10 + c4 != c5*10+c6) && (c3*10 + c4 != c7*10+c8)) {
-        // go ahead
+        (c3*10 + c4 != c5*10+c6) && (c3*10 + c4 != c7*10+c8)) ||
+        ((c1*10 + c5 != c2*10 + c6) && (c3*10 + c7 != c4*10 + c8) &&
+         (c1*10 + c5 != c3*10 + c7) && (c1*10 + c5 != c4*10 + c8) &&
+         (c2*10 + c6 != c3*10 + c7) && (c2*10 + c6 != c4*10 + c8))
+    ) {
+        window.location.replace("/second_room_finish.html");
     } else {
         console.log("Try something different... :)");
     }

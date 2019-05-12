@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA Battle: Heisenbug Edition</title>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<script>
+
+    function open_lock(code) {
+        var value = document.getElementById('bug_code').value;
+
+        console.log(value, value.length, isNaN(value));
+
+        if (value.length > 3) {
+
+            // So we had a deadline and this task is very simple :)
+            // Enjoy the game :)
+            if (value == 3807) {
+                window.location.replace("/3room_finished.html");
+            } else {
+                console.log("Try something different... :)");
+            }
+        }
+    }
+
+</script>
+
+
+<body>
+
+
+<div class="contentblock">
+
+
+    Ты наклоняешься и пытаешься открыть ящик стола
+
+    <br><br>
+
+    Ящик стола закрыт, на ящике цифровой замок:
+
+    <br><br>
+
+
+    <div align="center">
+
+        <input type="number" width="4" maxlength="4"
+               style="font-size:3rem;text-align:center; width:400px;background-color: #ee9999;"
+               placeholder="0000" id="bug_code">
+        <br><br>
+
+        <button class="open" onclick="open_lock(this);"> Open </button>
+
+    </div>
+
+
+
+    <br><br><br>
+
+    <a href="/3room_details.html">Осмотреть комнату</a><br>
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>
