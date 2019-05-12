@@ -26,8 +26,7 @@ touch /var/log/qabattle/qabattle.log
 rm -rf /etc/init/qabattle.conf
 cp qabattle.conf  /lib/systemd/system/qabattle.service
 systemctl enable qabattle
-service qabattle stop
-service qabattle start
+service qabattle restart
 
 service nginx configtest
 systemctl restart nginx
