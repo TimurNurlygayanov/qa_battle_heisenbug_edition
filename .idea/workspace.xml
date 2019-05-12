@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="300">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -227,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557313321080</updated>
-      <workItem from="1557313322393" duration="32634000" />
+      <workItem from="1557313322393" duration="32850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32634000" />
+    <option name="totallyTimeSpent" value="32850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="790" extended-state="0" />
@@ -556,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>

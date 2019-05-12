@@ -17,7 +17,8 @@ mkdir /qabattle
 touch /qabattle/qabattle.sock
 
 chown www-data:www-data -R /qabattle
-chmod 644 -R /qabattle
+chmod 644 /qabattle/qabattle.sock
+chmod 777 /qabattle
 
 mkdir -p /var/log/qabattle
 rm -rf /var/log/qabattle/qabattle.log
@@ -30,5 +31,3 @@ service qabattle restart
 
 service nginx configtest
 systemctl restart nginx
-
-service qabattle restart
