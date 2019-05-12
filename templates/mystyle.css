@@ -49,8 +49,8 @@
 
 
   button {
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
       font-size: 2rem;
 
       -webkit-appearance: none;
@@ -60,7 +60,7 @@
   button.cancel {
       color: darkorange;
       width: 250px;
-      height: 120px;
+      height: 100px;
       font-size: 2rem;
 
       -webkit-appearance: none;
@@ -70,7 +70,7 @@
   button.open {
       color: green;
       width: 250px;
-      height: 120px;
+      height: 100px;
       font-size: 2rem;
 
       -webkit-appearance: none;
@@ -117,15 +117,15 @@
 
 
 
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px; text-align: left; padding: 10%; font-size:1.5rem;}
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px; text-align: left; padding: 10%; font-size:1.2rem;}
     img {width: 10%}
     div.cube { width: 200px; height: 200px}
 }
-@media screen and (max-width: 1140px) { div.contentblock {width: 1024px; text-align: left; padding: 10%; font-size:1.5rem;}
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px; text-align: left; padding: 10%; font-size:1.2rem;}
     img {width: 15%}
     div.cube { width: 200px; height: 200px}
 }
-@media screen and (max-width: 992px) { div.contentblock {width: 970px; text-align: left; padding: 10%; font-size:1.5rem;}
+@media screen and (max-width: 992px) { div.contentblock {width: 970px; text-align: left; padding: 10%; font-size:1.2rem;}
     img {width: 20%}
     div.cube { width: 200px; height: 200px}
 }
