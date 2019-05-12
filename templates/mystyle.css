@@ -37,9 +37,8 @@
 
         text-align: center;
         vertical-align: middle;
-        display: inline-block;
 
-        //display: table-cell;
+        display: table-cell;
 
         background-color: #ffffff;
         font-size: 4rem;
@@ -82,6 +81,8 @@
 
   th {
       padding: 10px;
+      width: 20%;
+      height: 20%;
   }
 
   input.code {
@@ -108,7 +109,7 @@
       text-align:center;
       margin-left:auto;
       margin-right:auto;
-      width: 80%;
+      //width: 80%;
   }
 
 
