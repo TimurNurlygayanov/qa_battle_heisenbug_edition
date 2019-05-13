@@ -8,7 +8,7 @@
     float: right;
 }
 
-body, html .container {
+body, html {
     height: 100%;
     display: grid;
     font-size: 1.3rem;
@@ -224,7 +224,6 @@ table.cubes_area {
     }
 }
 
-
 @media (max-width: 640px) {
     html {
         font-size:1rem;
@@ -245,7 +244,7 @@ table.cubes_area {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2rem
     }
 
     h3 {
@@ -253,26 +252,17 @@ table.cubes_area {
     }
 }
 
-
 @media (min-width: 960px) {
     html {
         font-size:1rem;
     }
 
     h1 {
-        font-size: 4rem;
-        font-weight: 800;
-        color: #FFF;
-        margin-bottom: 0;
-        padding-bottom: 0;
+        font-size: 2rem
     }
 
     h3 {
         font-size: 1.2rem
-    }
-
-    h4 {
-        font-size: 2rem;
     }
 }
 
