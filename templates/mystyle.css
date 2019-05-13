@@ -64,9 +64,9 @@
 
   button.cancel {
       color: darkorange;
-      width: 150px;
-      height: 80px;
-      font-size: 2rem;
+      width: 120px;
+      height: 60px;
+      font-size: 1.5rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -74,9 +74,9 @@
 
   button.open {
       color: green;
-      width: 150px;
-      height: 80px;
-      font-size: 2rem;
+      width: 120px;
+      height: 60px;
+      font-size: 1.5rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
