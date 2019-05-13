@@ -13,6 +13,9 @@
     display: grid;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
+
+    background-image: url("images/semrush.png");
+    background-repeat: no-repeat;
   }
 
 
