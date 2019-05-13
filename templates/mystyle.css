@@ -54,9 +54,9 @@
 
 
   button {
-      width: 100px;
-      height: 100px;
-      font-size: 1rem;
+      width: 80px;
+      height: 80px;
+      font-size: 2rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -66,7 +66,7 @@
       color: darkorange;
       width: 150px;
       height: 80px;
-      font-size: 1rem;
+      font-size: 2rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -76,7 +76,7 @@
       color: green;
       width: 150px;
       height: 80px;
-      font-size: 1rem;
+      font-size: 2rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -96,7 +96,7 @@
   input.code {
       font-size:3rem;
       text-align:center;
-      //width:200px;
+      width:200px;
       background-color: #ffef7f;
   }
 
