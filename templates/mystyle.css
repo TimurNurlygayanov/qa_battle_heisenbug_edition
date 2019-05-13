@@ -56,7 +56,7 @@
   button {
       width: 100px;
       height: 100px;
-      font-size: 2rem;
+      font-size: 1rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -64,9 +64,9 @@
 
   button.cancel {
       color: darkorange;
-      width: 250px;
-      height: 100px;
-      font-size: 2rem;
+      width: 150px;
+      height: 80px;
+      font-size: 1rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -74,9 +74,9 @@
 
   button.open {
       color: green;
-      width: 250px;
-      height: 100px;
-      font-size: 2rem;
+      width: 150px;
+      height: 80px;
+      font-size: 1rem;
 
       -webkit-appearance: none;
       border-radius: 0 3px 3px 0;
@@ -96,7 +96,7 @@
   input.code {
       font-size:3rem;
       text-align:center;
-      width:400px;
+      //width:200px;
       background-color: #ffef7f;
   }
 
