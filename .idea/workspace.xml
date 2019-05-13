@@ -2,8 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d8f0f-d19d-4c3c-b3b5-5b991b91ddef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/flexboxgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/framework.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/3room_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/3room_finished.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_finished.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/3room_locked.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_locked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/3room_open_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_open_door.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/3room_read_help_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_read_help_text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/3room_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/3room_take_key.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_take_key.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/4room_dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/4room_dialog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/4room_dialog2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/4room_dialog2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/4room_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/4room_start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room_details_help_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_details_help_text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room_exit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_exit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room_first_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_first_door.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room_knoking_first_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_knoking_first_door.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_room_second_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_second_door.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/game_over_win.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game_over_win.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mystyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/second_room_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/second_room_finish.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_finish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/second_room_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/second_room_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/start_dream.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start_dream.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,45 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/4room_dialog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/3room_take_key.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/3room_start.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/3room_read_help_text.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#b#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/3room_open_door.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,21 +82,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+            <state relative-caret-position="-117">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="n#style#0;n#font#0;n#H1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#H4#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/mystyle.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/css/framework.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="618">
+              <caret line="1324" lean-forward="true" selection-start-line="1324" selection-end-line="1324" />
+              <folding>
+                <element signature="e#20978#21931#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/css/flexboxgrid.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="855" lean-forward="true" selection-start-line="855" selection-end-line="855" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/css/aos.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26053" selection-start-column="26053" selection-end-column="26053" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4275">
+              <caret line="285" selection-start-line="285" selection-end-line="285" />
             </state>
           </provider>
         </entry>
@@ -143,7 +178,6 @@
         <option value="$PROJECT_DIR$/templates/second_room_start.html" />
         <option value="$PROJECT_DIR$/templates/second_room_finish.html" />
         <option value="$PROJECT_DIR$/templates/second_room_details.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/game_over_win.html" />
         <option value="$PROJECT_DIR$/templates/first_room_second_door.html" />
         <option value="$PROJECT_DIR$/templates/first_room_knoking_first_door.html" />
@@ -162,15 +196,18 @@
         <option value="$PROJECT_DIR$/templates/3room_locked.html" />
         <option value="$PROJECT_DIR$/templates/3room_finished.html" />
         <option value="$PROJECT_DIR$/templates/3room_details.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/mystyle.css" />
+        <option value="$PROJECT_DIR$/templates/css/framework.css" />
+        <option value="$PROJECT_DIR$/templates/css/flexboxgrid.min.css" />
+        <option value="$PROJECT_DIR$/templates/css/aos.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="537" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="794" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -190,6 +227,12 @@
               <item name="qa_battle_heisenbug_edition" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qa_battle_heisenbug_edition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa_battle_heisenbug_edition" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -204,6 +247,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -230,15 +276,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557313321080</updated>
-      <workItem from="1557313322393" duration="51261000" />
+      <workItem from="1557313322393" duration="51954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51261000" />
+    <option name="totallyTimeSpent" value="51954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="537" width="1440" height="794" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -392,16 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/game_over_win.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -542,21 +578,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        <state relative-caret-position="4275">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
           <folding>
-            <element signature="n#style#0;n#font#0;n#H1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#H4#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mystyle.css">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="-117">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/framework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="1324" lean-forward="true" selection-start-line="1324" selection-end-line="1324" />
+          <folding>
+            <element signature="e#20978#21931#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/flexboxgrid.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="855" lean-forward="true" selection-start-line="855" selection-end-line="855" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/aos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26053" selection-start-column="26053" selection-end-column="26053" />
         </state>
       </provider>
     </entry>
