@@ -94,23 +94,23 @@
   }
 
   input.code {
-      font-size:3rem;
-      text-align:center;
-      width:200px;
+      font-size: 3rem;
+      text-align: center;
+      width: 200px;
       background-color: #ffef7f;
   }
 
   input.table_code {
-      font-size:3rem;
-      text-align:center;
-      // width:400px;
+      font-size: 3rem;
+      text-align: center;
+      width: 200px;
       background-color: #ee9999;
   }
 
   div.form {
-      text-align:center;
-      margin-left:auto;
-      margin-right:auto;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   div.green {
