@@ -260,7 +260,7 @@ table.cubes_area {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 800;
         color: #FFF;
         margin-bottom: 0;
@@ -269,6 +269,10 @@ table.cubes_area {
 
     h3 {
         font-size: 1.2rem
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 }
 
