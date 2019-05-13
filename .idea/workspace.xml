@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d8f0f-d19d-4c3c-b3b5-5b991b91ddef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/second_room_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_task.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mystyle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/second_room_task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -62,15 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/4room_start.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="94" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -147,7 +147,6 @@
         <option value="$PROJECT_DIR$/templates/3room_open_door.html" />
         <option value="$PROJECT_DIR$/templates/3room_locked.html" />
         <option value="$PROJECT_DIR$/templates/3room_details.html" />
-        <option value="$PROJECT_DIR$/templates/second_room_task.html" />
         <option value="$PROJECT_DIR$/templates/4room_start.html" />
         <option value="$PROJECT_DIR$/templates/4room_dialog.html" />
         <option value="$PROJECT_DIR$/templates/4room_dialog2.html" />
@@ -155,6 +154,7 @@
         <option value="$PROJECT_DIR$/templates/first_room_details.html" />
         <option value="$PROJECT_DIR$/templates/3room_finished.html" />
         <option value="$PROJECT_DIR$/templates/mystyle.css" />
+        <option value="$PROJECT_DIR$/templates/second_room_task.html" />
       </list>
     </option>
   </component>
@@ -222,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557313321080</updated>
-      <workItem from="1557313322393" duration="48141000" />
+      <workItem from="1557313322393" duration="48292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48141000" />
+    <option name="totallyTimeSpent" value="48292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="285" y="537" width="1440" height="794" extended-state="0" />
@@ -474,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/second_room_task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="74" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/4room_start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -548,6 +541,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/second_room_task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
         </state>
       </provider>
     </entry>
