@@ -172,14 +172,6 @@ div.green {
     color: green;
 }
 
-h1 {
-    font-size: 5rem;
-    font-weight: 800;
-    color: #FFF;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
 table.cubes_area {
     text-align: center;
     margin-left: auto;
