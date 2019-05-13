@@ -126,15 +126,21 @@
 
 
 
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px; text-align: left; padding: 10%; font-size:1.2rem;}
+@media screen and (max-width: 1280px) { div.contentblock {text-align: left; box-sizing: border-box;
+                                                          padding: 10%; font-size:1.2rem; width: 100%;
+                                                          max-width: 1250px;}
     img {width: 10%}
     div.cube { width: 200px; height: 200px}
 }
-@media screen and (max-width: 1140px) { div.contentblock {width: 1024px; text-align: left; padding: 10%; font-size:1.2rem;}
+@media screen and (max-width: 1140px) { div.contentblock {text-align: left; box-sizing: border-box;
+                                                          padding: 10%; font-size:1.2rem; width: 100%;
+                                                          max-width: 1100px;}
     img {width: 12%}
     div.cube { width: 200px; height: 200px}
 }
-@media screen and (max-width: 992px) { div.contentblock {width: 970px; text-align: left; padding: 10%; font-size:1.2rem;}
+@media screen and (max-width: 992px) { div.contentblock {text-align: left; box-sizing:border-box;
+                                                         padding: 10%; font-size:1.2rem; width: 100%;
+                                                         max-width: 970px;}
     img {width: 20%}
     div.cube { width: 200px; height: 200px}
 }
