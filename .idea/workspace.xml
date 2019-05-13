@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d8f0f-d19d-4c3c-b3b5-5b991b91ddef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/3room_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_finished.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_finished.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_locked.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_locked.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_open_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_open_door.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_read_help_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_read_help_text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_take_key.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_take_key.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/4room_dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/4room_dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/4room_dialog2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/4room_dialog2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/4room_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/4room_start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room_details_help_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_details_help_text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room_exit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_exit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room_first_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_first_door.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room_knoking_first_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_knoking_first_door.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/first_room_second_door.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_room_second_door.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/game_over_win.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game_over_win.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/second_room_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/second_room_finish.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_finish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/second_room_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/second_room_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_room_task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/start_dream.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start_dream.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mystyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="136" column="76" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
+            <state relative-caret-position="547">
+              <caret line="151" column="95" selection-start-line="151" selection-start-column="95" selection-end-line="151" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -251,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557313321080</updated>
-      <workItem from="1557313322393" duration="45672000" />
+      <workItem from="1557313322393" duration="45839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45672000" />
+    <option name="totallyTimeSpent" value="45839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="242" y="398" width="1440" height="794" extended-state="0" />
@@ -575,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mystyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="136" column="76" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
+        <state relative-caret-position="547">
+          <caret line="151" column="95" selection-start-line="151" selection-start-column="95" selection-end-line="151" selection-end-column="95" />
         </state>
       </provider>
     </entry>
