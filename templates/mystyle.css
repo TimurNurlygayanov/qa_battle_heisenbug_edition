@@ -32,9 +32,9 @@
 
   div.cube {
         border: double;
-        width: 120px;
-        height: 120px;
-        line-height: 120px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
 
         text-align: center;
         vertical-align: middle;
@@ -42,7 +42,7 @@
         //display: table-cell;
 
         background-color: #ffffff;
-        font-size: 4rem;
+        font-size: 2rem;
 
         position: relative;
   }
