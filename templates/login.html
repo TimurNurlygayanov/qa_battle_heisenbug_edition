@@ -1,83 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="google" content="notranslate">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<html lang="en" class="gr__qabattle_com"><head>
+  <meta charset="UTF-8">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QA Battle: Heisenbug Edition</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>QA Battle: Login</title>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+  <script src="//ulogin.ru/js/ulogin.js"></script>
 </head>
 
+<body data-gr-c-s-loaded="true">
 
-<script src="//ulogin.ru/js/ulogin.js"></script>
-
-
-<body>
-
-
-
-<div class="contentblock">
+  <div class="contentblock next_step">
     <div align="center" style="color: #FFF;">
-
-        Для начала игры необходимо авторизоваться:
-        <br><br>
-
-        <div style="background-color: whitesmoke" >
-            <div id="uLogin" data-ulogin="display=buttons;theme=classic;fields=first_name,last_name,email;
-            redirect_uri=https://qabattle.com/auth/auth;
-            providers=vkontakte,mailru,linkedin,facebook;mobilebuttons=0;altway=1">
-
-                <img src="images/google.png" data-uloginbutton="google"
-                     class="social_network" alt="google.com"/>
-                <img src="images/yandex.png" data-uloginbutton="yandex"
-                     class="social_network" alt="Yandex.ru"/>
-                <img src="images/mail.jpg" data-uloginbutton="mailru"
-                     class="social_network" alt="MAIL.RU"/>
-                <br>
-                <img src="images/vk.png" data-uloginbutton="vkontakte"
-                     class="social_network" alt="VK.com"/>
-                <img src="images/facebook.png" data-uloginbutton="facebook"
-                     class="social_network" alt="Facebook.com"/>
-                <img src="images/linkedin.png" data-uloginbutton="linkedin"
-                     class="social_network" alt="Linkedin.com"/>
-
-            </div>
+      Для начала игры необходимо авторизоваться:
+      <br><br>
+      <div style="background-color: #FFF;padding: 40px 0; border-radius: 20px">
+        <div id="uLogin" data-ulogin="display=buttons;theme=classic;fields=first_name,last_name,email;
+          redirect_uri=https://qabattle.com/auth/auth;
+          providers=vkontakte,mailru,linkedin,facebook;mobilebuttons=0;altway=1" data-ulogin-inited="1557827886153">
+         <img src="https://gallery.mailchimp.com/dfc72515bd206c2eb1657ee49/images/8187efd1-b369-4dfb-9d89-9041e0a28f94.png">
         </div>
+      </div>
+      <br><br>
+      <input type="checkbox" id="s-checkbox" class="s-checkbox__control" checked="" disabled="">
+      <span class="s-checkbox__label"></span>
+      Я даю свое согласие на обработку моих персональных данных. <br>
 
-        <br><br>
-
-        <input type="checkbox" checked disabled> Я даю свое согласие на обработку моих персональных данных. <br>
-
-        <br><br><br>
-
-        Если у вас не получается авторизоваться, напишите автору этой игры в телеграм: <a href="https://t.me/xwizard707"> @xwizard707 </a>
-
-        <br>
-
-        <div style="display: none">
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <symbol id="svg_icon--logo-small">
-            <g>
-              <path d="M147.2 3.8h-19l-4.9 13.5h3.7l3.7-10.3h4.6c.5 0 .8.4.6.9l-3.4 9.3h3.7l3.4-9.3c.2-.5.8-.9 1.3-.9h3.7c.5 0 .8.4.6.9l-3.4 9.3h3.7l3.9-10.7c.6-1.5-.4-2.7-2.2-2.7zM173 13.1c-.2.5-.8.9-1.3.9h-4.6c-.5 0-.8-.4-.6-.9l3.4-9.3h-3.7l-3.9 10.7c-.6 1.5.4 2.8 2.2 2.8h8.4c1.3 0 2.6-.8 3-1.9l4.2-11.6h-3.7l-3.4 9.3zM111.3 13.1l.3-.9h11.1l1.2-3.2.8-2.3c.6-1.5-.4-2.8-2.2-2.8h-9.3c-1.3 0-2.6.8-3 1.9l-3.2 8.8c-.6 1.5.4 2.8 2.2 2.8h11.8l1.2-3.2h-10.2c-.6-.2-.8-.6-.7-1.1zm1.9-5.1c.2-.5.8-.9 1.3-.9h5.6c.5 0 .8.4.6.9l-.3.9h-7.4l.2-.9zM208.9 3.8l-1.9 5.1h-6.5l1.9-5.1h-3.7l-4.9 13.5h3.7l1.9-5.2h6.4l-1.8 5.2h3.7l4.9-13.5h-3.7zM152.1 5.7l-4.2 11.6h3.7l3.4-9.3c.2-.5.8-.9 1.3-.9h6.5l1.2-3.2h-8.8c-1.4-.1-2.7.7-3.1 1.8zM94.1 5.7l-1.4 3.7c-.6 1.5.4 2.8 2.2 2.8h6c.5 0 .8.4.6.9-.2.5-.8.9-1.3.9h-9.3l-1.2 3.2h11.6c1.3 0 2.6-.8 3-1.9l1.4-3.7c.6-1.5-.4-2.8-2.2-2.8h-6c-.5.1-.7-.3-.5-.8.1-.5.7-1 1.2-1h9.3l1.2-3.2h-11.6c-1.3 0-2.6.8-3 1.9zM181.8 5.7l-1.4 3.7c-.6 1.5.4 2.8 2.2 2.8h6c.5 0 .8.4.6.9-.2.5-.8.9-1.3.9h-9.3l-1.2 3.2h11.6c1.3 0 2.6-.8 3-1.9l1.4-3.7c.6-1.5-.4-2.8-2.2-2.8h-6c-.5 0-.8-.4-.6-.9.2-.5.8-.9 1.3-.9h9.3l1.2-3.2h-11.6c-1.3 0-2.7.8-3 1.9zM78.8 3.1c-2.6-2.7-6.2-3.6-10.8-2.8 0 0-5.5 1.3-10.4 1.4-2.1 0-3.8-.6-5.3-.9.8 1.3 2 2.2 3.4 2.7 1.3.5 3.1 1.2 2.3 2.5-.9 1.4-2.3.2-2.7-.1-1.3-1-1.9-1.7-4.3-3.1-2.6-1.5-6.2-1.6-9.8-1.2 0 0 3 .6 4.3 2 0 0-5.7-1.2-9.5.7 5.4.2 11.4 1.1 12.4 1.5 1 .5.5.8-.5 1-2.4.5-6.9.7-9.7-.1-4-1.1-7.4-4.5-13.1-3.6 5 1.1 7.7 5.8 13.2 6.9 5.5 1.1 9.2-1.1 10.5-1.4 1.3-.3 2.4.1 2.6 1 .3.9-.8 1.9-2.3 2.2-1.1.2-1.5.2-3.5.4-4.2.4-7.2-.1-9.9-.8-5.1-1.4-8.7-4.7-10.4-5.6-1.7-.9-3.6-1.3-5-1.5 0 0 2.8 1.4 3.8 3.2-2.5-.9-6.1-1.5-10.9-.5-2.3.4-7.2 1.5-13.2 3.9 3 .9 6.8.2 8.5.1 9-.7 12 1.2 14.9 2.3 8.8 3.1 11.8.3 12.4 1.2.4.7-2.4 1.8-3.2 2-4 .7-5.9 0-9.5-.8 1.8 1.8 5.3 3.1 9.2 3 4-.2 8.2-.8 11.6-2.2 4-1.7 5.6-2.2 7.4-2.7.8-.2 3.5-.9 4.1-.2.3.4-.2.8-1.1 1.2-.7.3-1.6.6-2.4.9-1.9.7-5.6 2.1-6.7 3 0 0 5.1-.8 10.1-.8s8.4 1.1 12.2 2.5c4.1 1.5 7.6 1 10.6-1.5 2.7-2.3 4-4.9 3.9-8 0-3.2-1.1-5.7-3.2-7.8zm-7.1 16c-4.7 0-8.5-3.8-8.5-8.5s3.8-8.5 8.5-8.5 8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5zM71.7 3.9c-3.7 0-6.7 3-6.7 6.7s3 6.7 6.7 6.7 6.7-3 6.7-6.7c.1-3.7-2.9-6.7-6.7-6.7zm3.2 11.1c.8-1 1.2-2.2 1.2-3.5 0-2.7-2-5-4.6-5.5.2-.3.5-.7.8-.9 2.7.4 4.7 2.7 4.7 5.5 0 1.8-.8 3.4-2.1 4.4z">
-              </path>
-            </g>
-            </symbol>
-          </svg>
-        </div>
-        <a href="#" class="navigation__logo" style="text-align: left;float: left;">
-          <svg viewBox="0 0 212.6 22">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg_icon--logo-small"></use>
-          </svg>
-        </a>
-
+      Если у вас не получается авторизоваться, напишите автору этой игры в телеграм: <a href="https://t.me/xwizard707" target="_blank" style="color: #FFF;text-decoration: underline;"> @xwizard707 </a>
+      <br><br><br>
+      <div style="display: none">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <symbol id="svg_icon--logo-small">
+          <g>
+            <path d="M147.2 3.8h-19l-4.9 13.5h3.7l3.7-10.3h4.6c.5 0 .8.4.6.9l-3.4 9.3h3.7l3.4-9.3c.2-.5.8-.9 1.3-.9h3.7c.5 0 .8.4.6.9l-3.4 9.3h3.7l3.9-10.7c.6-1.5-.4-2.7-2.2-2.7zM173 13.1c-.2.5-.8.9-1.3.9h-4.6c-.5 0-.8-.4-.6-.9l3.4-9.3h-3.7l-3.9 10.7c-.6 1.5.4 2.8 2.2 2.8h8.4c1.3 0 2.6-.8 3-1.9l4.2-11.6h-3.7l-3.4 9.3zM111.3 13.1l.3-.9h11.1l1.2-3.2.8-2.3c.6-1.5-.4-2.8-2.2-2.8h-9.3c-1.3 0-2.6.8-3 1.9l-3.2 8.8c-.6 1.5.4 2.8 2.2 2.8h11.8l1.2-3.2h-10.2c-.6-.2-.8-.6-.7-1.1zm1.9-5.1c.2-.5.8-.9 1.3-.9h5.6c.5 0 .8.4.6.9l-.3.9h-7.4l.2-.9zM208.9 3.8l-1.9 5.1h-6.5l1.9-5.1h-3.7l-4.9 13.5h3.7l1.9-5.2h6.4l-1.8 5.2h3.7l4.9-13.5h-3.7zM152.1 5.7l-4.2 11.6h3.7l3.4-9.3c.2-.5.8-.9 1.3-.9h6.5l1.2-3.2h-8.8c-1.4-.1-2.7.7-3.1 1.8zM94.1 5.7l-1.4 3.7c-.6 1.5.4 2.8 2.2 2.8h6c.5 0 .8.4.6.9-.2.5-.8.9-1.3.9h-9.3l-1.2 3.2h11.6c1.3 0 2.6-.8 3-1.9l1.4-3.7c.6-1.5-.4-2.8-2.2-2.8h-6c-.5.1-.7-.3-.5-.8.1-.5.7-1 1.2-1h9.3l1.2-3.2h-11.6c-1.3 0-2.6.8-3 1.9zM181.8 5.7l-1.4 3.7c-.6 1.5.4 2.8 2.2 2.8h6c.5 0 .8.4.6.9-.2.5-.8.9-1.3.9h-9.3l-1.2 3.2h11.6c1.3 0 2.6-.8 3-1.9l1.4-3.7c.6-1.5-.4-2.8-2.2-2.8h-6c-.5 0-.8-.4-.6-.9.2-.5.8-.9 1.3-.9h9.3l1.2-3.2h-11.6c-1.3 0-2.7.8-3 1.9zM78.8 3.1c-2.6-2.7-6.2-3.6-10.8-2.8 0 0-5.5 1.3-10.4 1.4-2.1 0-3.8-.6-5.3-.9.8 1.3 2 2.2 3.4 2.7 1.3.5 3.1 1.2 2.3 2.5-.9 1.4-2.3.2-2.7-.1-1.3-1-1.9-1.7-4.3-3.1-2.6-1.5-6.2-1.6-9.8-1.2 0 0 3 .6 4.3 2 0 0-5.7-1.2-9.5.7 5.4.2 11.4 1.1 12.4 1.5 1 .5.5.8-.5 1-2.4.5-6.9.7-9.7-.1-4-1.1-7.4-4.5-13.1-3.6 5 1.1 7.7 5.8 13.2 6.9 5.5 1.1 9.2-1.1 10.5-1.4 1.3-.3 2.4.1 2.6 1 .3.9-.8 1.9-2.3 2.2-1.1.2-1.5.2-3.5.4-4.2.4-7.2-.1-9.9-.8-5.1-1.4-8.7-4.7-10.4-5.6-1.7-.9-3.6-1.3-5-1.5 0 0 2.8 1.4 3.8 3.2-2.5-.9-6.1-1.5-10.9-.5-2.3.4-7.2 1.5-13.2 3.9 3 .9 6.8.2 8.5.1 9-.7 12 1.2 14.9 2.3 8.8 3.1 11.8.3 12.4 1.2.4.7-2.4 1.8-3.2 2-4 .7-5.9 0-9.5-.8 1.8 1.8 5.3 3.1 9.2 3 4-.2 8.2-.8 11.6-2.2 4-1.7 5.6-2.2 7.4-2.7.8-.2 3.5-.9 4.1-.2.3.4-.2.8-1.1 1.2-.7.3-1.6.6-2.4.9-1.9.7-5.6 2.1-6.7 3 0 0 5.1-.8 10.1-.8s8.4 1.1 12.2 2.5c4.1 1.5 7.6 1 10.6-1.5 2.7-2.3 4-4.9 3.9-8 0-3.2-1.1-5.7-3.2-7.8zm-7.1 16c-4.7 0-8.5-3.8-8.5-8.5s3.8-8.5 8.5-8.5 8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5zM71.7 3.9c-3.7 0-6.7 3-6.7 6.7s3 6.7 6.7 6.7 6.7-3 6.7-6.7c.1-3.7-2.9-6.7-6.7-6.7zm3.2 11.1c.8-1 1.2-2.2 1.2-3.5 0-2.7-2-5-4.6-5.5.2-.3.5-.7.8-.9 2.7.4 4.7 2.7 4.7 5.5 0 1.8-.8 3.4-2.1 4.4z">
+            </path>
+          </g>
+          </symbol>
+        </svg>
+      </div>
+      <a href="#" class="navigation__logo" >
+        <svg viewBox="0 0 212.6 22">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg_icon--logo-small"></use>
+        </svg>
+      </a>
     </div>
-</div>
-
-
-
-</body>
+  </div>
+  <div id="ulogin_receiver_container" style="margin: 0px; padding: 0px; outline: none; border: none; border-radius: 0px; cursor: default; float: none; position: relative; display: none; width: 0px; height: 0px; left: 0px; top: 0px; box-sizing: content-box;"></div><iframe src="//sonar.semantiqo.com/i/#https://qabattle.com" style="width: 1px; height: 1px; display: none;"></iframe></body>
 </html>
