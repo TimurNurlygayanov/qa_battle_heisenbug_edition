@@ -13,7 +13,6 @@ body, html {
     display: grid;
     font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
-    background: url('https://gallery.mailchimp.com/dfc72515bd206c2eb1657ee49/images/e76fd9d7-ce1a-43c5-b478-13b5cda9026f.png');
     padding: 0;
     margin: 0;
     background-size: cover;
@@ -45,7 +44,13 @@ div.contentblock {
     padding-top: 5%;
     padding-left: 30%;
     padding-right: 30%;
-    background: url(https://gallery.mailchimp.com/dfc72515bd206c2eb1657ee49/images/0c76dc11-87e2-44d6-99a2-95a091fea08b.png);
+    background: url(https://gallery.mailchimp.com/dfc72515bd206c2eb1657ee49/images/6aa6dc4c-c36c-487c-af16-a675271d0dc0.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+div.contentblock.next_step {
+    background: url(https://gallery.mailchimp.com/dfc72515bd206c2eb1657ee49/images/72454905-b3fa-4bc1-8182-9ee42910e0c7.jpg);
     background-size: cover;
     margin: 0 auto;
 }
@@ -112,34 +117,54 @@ img.social_network {
 }
 
 button {
-    width: 80px;
+    width: 29%;
     height: 80px;
     font-size: 2rem;
     -webkit-appearance: none;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0;
+    border: 0;
+    margin: 5px;
+    border-radius: 4px;
+    /* border: 1px solid #515151; */
+    background: #2a2a2a;
+    color: #EEE;
+}
+
+.lock button {
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer
+}
+
+.lock button:hover {
+    opacity: 0.8;
 }
 
 button.cancel {
-    color: darkorange;
-    width: 120px;
+    color: #6c6c6c;
+    width: 42%;
     height: 60px;
     font-size: 1.5rem;
     -webkit-appearance: none;
-    border-radius: 0 3px 3px 0;
+    border-radius: 4px;
+    border: 0;
 }
 
 button.open {
     color: green;
-    width: 120px;
+    width: 49%;
     height: 60px;
     font-size: 1.5rem;
     -webkit-appearance: none;
-    border-radius: 0 3px 3px 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4fae33;
+    border: 0;
 }
 
 input:not([type="radio"]):not([type="checkbox"]) {
     -webkit-appearance: none;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0;
 }
 
 th {
@@ -149,10 +174,13 @@ th {
 }
 
 input.code {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
-    width: 200px;
+    width: 98%;
     background-color: #ffef7f;
+    outline: none;
+    border: 0;
+    color: #333;
 }
 
 input.table_code {
