@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d8f0f-d19d-4c3c-b3b5-5b991b91ddef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/game_over_win.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game_over_win.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -110,13 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/3room_open_door.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/game_over_win.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="249">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#H1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,7 +177,6 @@
         <option value="$PROJECT_DIR$/templates/second_room_task.html" />
         <option value="$PROJECT_DIR$/templates/second_room_finish.html" />
         <option value="$PROJECT_DIR$/templates/second_room_details.html" />
-        <option value="$PROJECT_DIR$/templates/game_over_win.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/first_room_exit.html" />
         <option value="$PROJECT_DIR$/templates/4room_start.html" />
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/templates/first_room.html" />
         <option value="$PROJECT_DIR$/templates/second_room_start.html" />
         <option value="$PROJECT_DIR$/templates/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/game_over_win.html" />
       </list>
     </option>
   </component>
@@ -279,12 +280,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557313321080</updated>
       <workItem from="1557313322393" duration="55874000" />
-      <workItem from="1557818281317" duration="4829000" />
+      <workItem from="1557818281317" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60703000" />
+    <option name="totallyTimeSpent" value="60846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="790" extended-state="0" />
@@ -437,16 +438,6 @@
             <element signature="n#style#0;n#font#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/game_over_win.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,6 +672,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/game_over_win.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#H1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
