@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d8f0f-d19d-4c3c-b3b5-5b991b91ddef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/3room_locked.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_locked.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/3room_read_help_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/3room_read_help_text.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/3room_locked.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="735" selection-start-line="15" selection-start-column="735" selection-end-line="15" selection-end-column="735" />
+            <state relative-caret-position="240">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -285,12 +283,12 @@
       <workItem from="1557313322393" duration="55874000" />
       <workItem from="1557818281317" duration="5880000" />
       <workItem from="1557946549054" duration="39000" />
-      <workItem from="1558083980643" duration="126000" />
+      <workItem from="1558083980643" duration="379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61919000" />
+    <option name="totallyTimeSpent" value="62172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="335" y="195" width="1440" height="790" extended-state="0" />
@@ -683,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/3room_locked.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="735" selection-start-line="15" selection-start-column="735" selection-end-line="15" selection-end-column="735" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
