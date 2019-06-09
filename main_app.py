@@ -59,13 +59,12 @@ def execute_task():
         with open('/tmp/{0}.py'.format(worker_id), 'w') as f:
             f.write(code)
 
-        try:
-            result = subprocess.run(docker_run_cmd_python3.format(worker_id),
-                                    shell=True,
-                                    stdout=subprocess.PIPE,
-                                    stderr=subprocess.STDOUT).stdout.read()
-        except:
-            result = 'Timeout: 10 seconds'  # this is for timeout handling
+        result = subprocess.run(docker_run_cmd_python3.format(worker_id),
+                                shell=True,
+                                stdout=subprocess.PIPE,
+                                stderr=subprocess.STDOUT).stdout.read()
+        # except:
+        #     result = 'Timeout: 10 seconds'  # this is for timeout handling
 
         return flask.jsonify({'result': result})
 
