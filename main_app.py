@@ -8,6 +8,9 @@ import hashlib
 import requests
 import codecs
 
+from uuid import uuid4
+import subprocess
+
 
 UPLOAD_FOLDER = '/files'
 
@@ -41,6 +44,31 @@ def authorize():
         return flask.redirect('/start_dream.html')
 
     return flask.jsonify('internal error: please write to Telegram @xwizard707 about the issue! Thank you!')
+
+
+@app.route('/run_code', methods=['POST'])
+def execute_task():
+
+    docker_run_cmd_python3 = ('docker run --read-only -v '
+                              '{0}.py:/app/main.py python3 main.py')
+
+    if request.method == 'POST':
+        code = str(request.values['source_code'])
+        worker_id = str(uuid4())
+
+        with open('{0}.py'.format(worker_id), 'w') as f:
+            f.write(code)
+
+        try:
+            result = subprocess.run(docker_run_cmd_python3.format(worker_id),
+                                    shell=True,
+                                    stdout=subprocess.PIPE,
+                                    stderr=subprocess.STDOUT,
+                                    timeout=10).stdout.read()
+        except subprocess.TimeoutExpired:
+            result = 'Timeout: 10 seconds'  # this is for timeout handling
+
+        return flask.jsonify({'result': result})
 
 
 if __name__ == "__main__":
