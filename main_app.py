@@ -63,8 +63,7 @@ def execute_task():
             result = subprocess.run(docker_run_cmd_python3.format(worker_id),
                                     shell=True,
                                     stdout=subprocess.PIPE,
-                                    stderr=subprocess.STDOUT,
-                                    timeout=10).stdout.read()
+                                    stderr=subprocess.STDOUT).stdout.read()
         except:
             result = 'Timeout: 10 seconds'  # this is for timeout handling
 
