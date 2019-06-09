@@ -50,13 +50,13 @@ def authorize():
 def execute_task():
 
     docker_run_cmd_python3 = ('docker run --read-only -v '
-                              '{0}.py:/app/main.py python3 main.py')
+                              '/tmp/{0}.py:/app/main.py python3 main.py')
 
     if request.method == 'POST':
         code = str(request.values['source_code'])
         worker_id = str(uuid4())
 
-        with open('{0}.py'.format(worker_id), 'w') as f:
+        with open('/tmp/{0}.py'.format(worker_id), 'w') as f:
             f.write(code)
 
         try:
