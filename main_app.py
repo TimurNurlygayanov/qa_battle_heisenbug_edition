@@ -46,7 +46,7 @@ def authorize():
     return flask.jsonify('internal error: please write to Telegram @xwizard707 about the issue! Thank you!')
 
 
-@app.route('/run_code', methods=['POST'])
+@app.route('/auth/run_code', methods=['POST'])
 def execute_task():
 
     docker_run_cmd_python3 = ('docker run --read-only -v '
