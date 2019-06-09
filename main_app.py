@@ -65,7 +65,7 @@ def execute_task():
                                     stdout=subprocess.PIPE,
                                     stderr=subprocess.STDOUT,
                                     timeout=10).stdout.read()
-        except subprocess.TimeoutExpired:
+        except:
             result = 'Timeout: 10 seconds'  # this is for timeout handling
 
         return flask.jsonify({'result': result})
